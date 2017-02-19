@@ -1,3 +1,6 @@
-# lost-in-cloths
-npm needed
-npm install and run with npm run build
+# lost-in-cloths :poop:
+To run this project, use npm
+```
+npm install
+npm run build
+```
