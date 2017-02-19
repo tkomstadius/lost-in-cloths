@@ -9485,7 +9485,7 @@ class NavBar extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
   render() {
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      null,
+      { className: 'navBar' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
         { className: 'appName' },
@@ -9528,8 +9528,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!./../node_modules/css-loader/index.js??ref--1-1!./../node_modules/sass-loader/lib/loader.js??ref--1-2!./app.scss", function() {
-			var newContent = require("!!./../node_modules/css-loader/index.js??ref--1-1!./../node_modules/sass-loader/lib/loader.js??ref--1-2!./app.scss");
+		module.hot.accept("!!./../../node_modules/css-loader/index.js??ref--1-1!./../../node_modules/sass-loader/lib/loader.js??ref--1-2!./app.scss", function() {
+			var newContent = require("!!./../../node_modules/css-loader/index.js??ref--1-1!./../../node_modules/sass-loader/lib/loader.js??ref--1-2!./app.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -9590,7 +9590,7 @@ exports = module.exports = __webpack_require__(86)();
 
 
 // module
-exports.push([module.i, "#app {\n  display: flex;\n  flex-wrap: nowrap; }\n  #app #top {\n    flex: 1;\n    border: 1px solid pink; }\n  #app #center {\n    flex: 3;\n    border: 1px solid green; }\n\n.poo {\n  background-color: blue; }\n", "", {"version":3,"sources":["/./style/main.scss","/./style/test.scss"],"names":[],"mappings":"AAAA;EACE,cAAa;EACb,kBAAiB,EASlB;EAXD;IAII,QAAO;IACP,uBAAsB,EACvB;EANH;IAQI,QAAO;IACP,wBAAuB,EACxB;;ACVH;EACE,uBAAsB,EACvB","file":"app.scss","sourcesContent":["#app {\n  display: flex;\n  flex-wrap: nowrap;\n  #top {\n    flex: 1;\n    border: 1px solid pink;\n  }\n  #center {\n    flex: 3;\n    border: 1px solid green;\n  }\n}\n",".poo {\n  background-color: blue;\n}\n"],"sourceRoot":"webpack://"}]);
+exports.push([module.i, "#app #top {\n  border: 1px solid pink; }\n\n#app #center {\n  border: 1px solid green; }\n\n.navBar {\n  display: flex;\n  justify-content: space-around; }\n  .navBar .menu {\n    display: flex;\n    justify-content: center;\n    align-items: center; }\n    .navBar .menu div {\n      padding: 1em; }\n\n.poo {\n  background-color: blue; }\n", "", {"version":3,"sources":["/./app/style/main.scss","/./app/style/navBar.scss","/./app/style/test.scss"],"names":[],"mappings":"AAAA;EAEI,uBAAsB,EACvB;;AAHH;EAKI,wBAAuB,EACxB;;ACNH;EACE,cAAa;EACb,8BAA6B,EAS9B;EAXD;IAII,cAAa;IACb,wBAAuB;IACvB,oBAAmB,EAIpB;IAVH;MAQM,aAAY,EACb;;ACTL;EACE,uBAAsB,EACvB","file":"app.scss","sourcesContent":["#app {\n  #top {\n    border: 1px solid pink;\n  }\n  #center {\n    border: 1px solid green;\n  }\n}\n",".navBar {\n  display: flex;\n  justify-content: space-around;\n  .menu {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    div {\n      padding: 1em;\n    }\n  }\n}\n",".poo {\n  background-color: blue;\n}\n"],"sourceRoot":"webpack://"}]);
 
 // exports
 

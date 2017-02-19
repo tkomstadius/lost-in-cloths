@@ -1,12 +1,8 @@
 #app {
-  display: flex;
-  flex-wrap: nowrap;
   #top {
-    flex: 1;
     border: 1px solid pink;
   }
   #center {
-    flex: 3;
     border: 1px solid green;
   }
 }

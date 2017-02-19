@@ -1,0 +1,12 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      padding: 1em;
+    }
+  }
+}
